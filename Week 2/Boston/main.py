@@ -4,6 +4,8 @@ from sklearn.model_selection import KFold, cross_val_score
 from sklearn.neighbors import KNeighborsRegressor
 from sklearn.preprocessing import scale
 
+"Выбор метрики"
+
 # Мы будем использовать в данном задании набор данных Boston, где нужно предсказать стоимость жилья на основе
 # различных характеристик расположения (загрязненность воздуха, близость к дорогам и т.д.). Подробнее о признаках
 # можно почитать по адресу https://archive.ics.uci.edu/ml/datasets/Housing Загрузите выборку Boston с помощью функции
